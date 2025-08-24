@@ -49,5 +49,5 @@ export default function Form() {
 
 function sendMessage(message) {
   console.log("Message sent:", message);
-  alert('Please Confirm Your Massage!!')
+  alert(`📩 Your Message:\n\n${message}`);
 }
